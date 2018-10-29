@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/your_loc"
+            android:icon="@drawable/your_location"
+            android:title="Your location" />
+        <item
+            android:id="@+id/join_cir"
+            android:icon="@drawable/join_circle"
+            android:title="Join circle" />
+        <item
+            android:id="@+id/share_loc"
+            android:icon="@drawable/share_location"
+            android:title="Share location" />
+        <item
+            android:id="@+id/friend_list"
+            android:icon="@drawable/friend_list"
+            android:title="Friend list" />
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/log_out"
+            android:title="About us" />
+        <item
+            android:id="@+id/log_out"
+            android:icon="@drawable/logout"
+            android:title="Log out" />
+    </group>
+</menu>
